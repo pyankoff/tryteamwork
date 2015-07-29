@@ -12,18 +12,21 @@ h1 {
 	font-weight: 200;
 	margin-bottom: 30px;
 }
-h2, h3 {
-	font-size: 1.25em;
+h2 {
+	font-size: 1.35em;
 	color: #5f5d60;
+	font-weight: 200;
 	margin-bottom: 16px;
 	margin-top: 0;
 }
 p {
-	color: #b3aeb5;
+	color: #7d7d7d;
 	line-height: 1.7;
 	font-size: 1.1em;
 	font-weight: 200;
 }
+/* Navbar
+================================= */
 
 .navbar {
 	background: rgba(255,255,255,0);
@@ -31,11 +34,6 @@ p {
 	padding: 0;
 
 }
-.navbar-text {
-	font-weight: bold;
-	margin-right: 0;
-}
-
 
 html {
 	background: url('../img/main-bg.jpg') no-repeat center center fixed; 
@@ -62,24 +60,9 @@ body {
 /* Buttons
 ================================= */
 
-.btn-default {
-	border-width: 2px;
-	border-color: inherit;
+.btn-success {
 	margin-right: 10px;
 	padding: 12px 22px;
-}
-.btn-default:hover {
-	background-color: #fff;
-	color: #957bba;
-	border-color: #fff;
-}
-.btn:active {
-	box-shadow: none;
-}
-.panel .btn-default:hover {
-	background-color: #ccc;
-	color: #f7f7f7;
-	border-color: #ccc;
 }
 
 /* Logos & Icons
