@@ -1,0 +1,98 @@
+
+/* Typography
+================================= */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+	font-size: 2.5em;
+	color: #5f5d60;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+h2, h3 {
+	font-size: 1.25em;
+	color: #5f5d60;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+p {
+	color: #b3aeb5;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+
+.navbar {
+	background: rgba(255,255,255,0);
+	border: none;
+	padding: 0;
+
+}
+.navbar-text {
+	font-weight: bold;
+	margin-right: 0;
+}
+
+
+html {
+	background: url('../img/main-bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 200px;
+}
+
+/* Layout
+================================= */
+
+.panel {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+body {
+	padding-top: 20px;
+	font-size: 16px;
+	background: transparent;
+}
+
+
+/* Buttons
+================================= */
+
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: #957bba;
+	border-color: #fff;
+}
+.btn:active {
+	box-shadow: none;
+}
+.panel .btn-default:hover {
+	background-color: #ccc;
+	color: #f7f7f7;
+	border-color: #ccc;
+}
+
+/* Logos & Icons
+================================= */
+
+.main-logo {
+	width: 144px;
+	height: 84px;
+	margin-left: 30px;
+	margin-top: 12px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/main-logo.png') no-repeat;
+	background-size: 100%;
+}
