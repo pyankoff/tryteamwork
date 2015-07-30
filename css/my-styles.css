@@ -6,12 +6,14 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 h1 {
 	font-size: 3.5em;
 	color: #5f5d60;
 	font-weight: 200;
 	margin-bottom: 8px;
 }
+
 h2 {
 	font-size: 1.35em;
 	color: #5f5d60;
@@ -19,6 +21,7 @@ h2 {
 	margin-bottom: 30px;
 	margin-top: 0;
 }
+
 p {
 	color: #7d7d7d;
 	line-height: 1.7;
