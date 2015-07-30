@@ -7,16 +7,16 @@
 	font-style: normal;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	color: #5f5d60;
 	font-weight: 200;
-	margin-bottom: 30px;
+	margin-bottom: 8px;
 }
 h2 {
 	font-size: 1.35em;
 	color: #5f5d60;
 	font-weight: 200;
-	margin-bottom: 16px;
+	margin-bottom: 30px;
 	margin-top: 0;
 }
 p {
@@ -62,6 +62,8 @@ body {
 
 .btn-success {
 	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 30px;
 	padding: 12px 22px;
 }
 
